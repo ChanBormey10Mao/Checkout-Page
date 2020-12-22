@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://chanbormey10mao.github.io/Checkout-Page/">
       Demo
     </a>
     <span> | </span>
@@ -39,10 +39,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?git remote add origin https://github.com/ChanBormey10Mao/Checkout-Page.git
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- <a href="https://chanbormey10mao.github.io/Checkout-Page/">Demo</a>
 
 ### Built With
 
