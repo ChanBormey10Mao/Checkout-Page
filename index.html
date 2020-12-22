@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="assets/devchallenges.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet"  href="styles/small_screen.css">
+    <link rel="stylesheet" href="styles/checkout.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <aside class="form_wrapper">
+            <section>
+               
+                <div class="title_contact">Contact infomation</div>
+            </section>
+            <form class="form">
+                <div class="wrapper">
+                    <label for="email" class="label">Email</label>
+                    <div class="input_wrapper email_wrapper">
+                        <i class="material-icons icon">
+                            email
+                        </i>
+                        <input type="email" class="input_text" id="email" placeholder="Enter your email...">
+                    </div>
+                    <label for="phone" class="label">Phone Number</label>
+                    <div class="input_wrapper phone_wrapper">
+                        <i class="material-icons icon">
+                            call
+                        </i>
+                        <input type="number" class="input_text" id="phone" placeholder="Enter your phone...">
+                    </div>
+                </div>
+                <div id="break"></div>
+                <section>
+                    <div class="title_contact">Shipping address</div>
+                </section>
+                <div class="wrapper">
+                    <label for="name" class="label">Full name</label>
+                    <div class="input_wrapper name_wrapper">
+                        <i class="material-icons icon">
+                            account_circle
+                        </i>
+                        <input type="text" class="input_text" id="name" placeholder="Rodney Cotton">
+                    </div>
+                    <label for="address" class="label">Address</label>
+                    <div class="input_wrapper address_wrapper">
+                        <i class="material-icons icon">
+                            home
+                        </i>
+                        <input type="text" class="input_text" id="address" placeholder="Your address..">
+                    </div>
+                    <label for="city" class="label">Address</label>
+                    <div class="input_wrapper city_wrapper">
+                        <i class="material-icons icon">
+                            apartment
+                        </i>
+                        <input type="text" class="input_text" id="city" placeholder="Your city..">
+                    </div>
+                    <aside>
+                        <label for="country" class="label">Country</label>
+                        <div class="input_wrapper city_wrapper">
+                            <i class="material-icons icon">
+                                public
+                            </i>
+                            <select id="country" name="country" class="input_text">
+                                <option value="Australia selected" selected>Australia</option>
+                                <option value="Cambodia">Cambodia</option>
+                                <option value="USA">USA</option>
+                                <option value="New Zealand"> New Zealand</option>
+                                <option value="Cananda">Cananda</option>
+                            </select>
+                    </aside>
+                    <aside>
+                        <label for="postcode" class="label">Postcode</label>
+                        <div class="input_wrapper city_wrapper">
+                            <i class="material-icons icon">
+                                markunread_mailbox
+                            </i>
+                            <input type="text" class="input_text" id="postcode" placeholder="Your postcode..">
+                        </div>
+                    </aside>
+                </div>
+                <div class="wrapper save_section">
+                    <input type="checkbox" name="save" id="save_info_checkbox">
+                    <label for="save_info_checkbox" class="label save_text">Save this information for next time</label>
+                </div>
+            </form>
+            <input type="button" value="Continue" class="submit_btn">
+        </aside>
+        <aside>
+            <div class="recipt_wrapper">
+                <div class="product">
+                    <img src="assets/photo1.png" alt="photo1" class="img_product">
+                    <div class="product_c2">
+
+                        <div class="product_name">Vintage Backbag</div>
+                        <div class="price">
+                            <div class="discounted_price">$54.99</div>
+                            <div class="real_price">$94.99</div>
+                        </div>
+                        <div class="quantity_wrapper">
+                            <div class="sign_wrapper">
+                                <button class="minus sign">-</button>
+                                <span class="quantity">1</span>
+                                <button class="plus sign">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="assets/photo2.png" alt="photo2" class="img_product">
+                    <div class="product_c2">
+
+                        <div class="product_name">Levi Shoes</div>
+                        <div class="price">
+                            <div class="discounted_price">$74.99</div>
+                            <div class="real_price">$124.99</div>
+                        </div>
+                        <div class="quantity_wrapper">
+                            <div class="sign_wrapper">
+                                <button class="minus sign">-</button>
+                                <span class="quantity">1</span>
+                                <button class="plus sign">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line_space"></div>
+                <div class="line"></div>
+                <div class="extra_amount_wrapper">
+                    <div class="title_contact" id="shipping">Shipping</div>
+                    <div class="fee">10$</div>
+                </div>
+                <div class="line"></div>
+                <div class="extra_amount_wrapper">
+                    <div class="title_contact" id="total">Total</div>
+                    <div class="fee">148.98$</div>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p class="attribution">
+			Designed by Chan Bormey Mao
+		</p>
+    </footer>
+</body>
+
+</html>

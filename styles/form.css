@@ -1,0 +1,91 @@
+
+.wrapper .label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    transform: rotate(-0.02deg);
+    }
+
+.input_wrapper i{
+    position: absolute; 
+}
+
+.form_wrapper{
+    margin-right: 6rem;
+}
+.input_wrapper{
+    width: 100%; 
+}
+.icon { 
+    padding: 15px; 
+    min-width: 40px; 
+color: #828282;
+} 
+
+    
+.input_text { 
+    width: 465px;
+    height: 56px;
+
+    padding: 10px; 
+    text-align: center; 
+
+    border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #828282;
+margin-bottom: 10px;
+} 
+
+#country{
+width: 215px;
+height: 56px;
+}
+
+select{
+    text-align-last:center;
+}
+#postcode{
+    width: 215px;
+    height: 56px;
+}
+#save_info_checkbox{
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.submit_btn{
+width: 166px;
+height: 54px;
+background: #F2994A;
+border-color: #ffffff;
+border-style: none;
+border-radius: 12px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+float: right;
+}
+
+
+
+   
+
+    

@@ -1,0 +1,141 @@
+@media only screen and (min-width: 376px) {
+    .recipt_wrapper{
+        background: #F2F2F2;
+        border-radius: 12px;
+        margin-left: 2rem;
+        padding: 2rem 0rem 2rem 2rem; 
+    }
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.product_c2{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (min-width: 376px) {
+    .img_product{
+        width: 150px;
+        height: 150px;
+    background: url(image.png);
+    transform: rotate(-0.02deg);
+    border-radius: 16px;
+    }
+}
+
+.product_name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 170px;
+    height: 22.21px;
+    margin-left: 2rem;
+    
+    color: #4E5150;
+    
+    transform: rotate(-0.02deg);
+}
+.price{
+    display: flex;
+}
+.discounted_price{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 0.8rem;
+color: #F2994A;
+transform: rotate(-0.02deg);
+
+}
+
+.real_price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    padding-top: 0.8rem;
+    color: #4E5150;
+    
+    transform: rotate(-0.02deg);
+}
+.quantity_wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 134.25px;
+    height: 52px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 2.6rem 2rem 0.2rem 2rem;
+    /* margin-top: 4rem; */
+}
+.sign_wrapper{
+   align-self: center;
+   padding-left: 1.3rem;
+   padding-right: 1rem;
+}
+.quantity{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.sign{
+    background: #E0E0E0;
+border: solid #E0E0E0 1px;
+border-radius: 4px;
+width: 21.2px;
+height: 21.2px;
+color: #828282;
+font-size : 15px;
+}
+.quantity{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+.line{
+    width: 359.6px;
+    border: 1px solid #BDBDBD;
+    transform: rotate(-0.18deg);
+    margin-bottom: 1rem;
+}
+
+.extra_amount_wrapper{
+    display: flex;
+    width: 383px;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.fee{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    align-self: flex-end;
+    color: #333333;
+}
+.line_space{
+    padding-bottom: 3rem;
+}
+#shipping{
+    width: 328px;
+    margin: 0px;
+}
+#total{
+    width: 300px;
+    margin: 0px;
+}
